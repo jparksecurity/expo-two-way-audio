@@ -5,8 +5,8 @@ Expo module for capturing and playing pcm audio data in react-native apps (iOS a
 The aim of the module is to facilitate creating real-time conversational apps. The following features are provided:
 
 - Request audio recording permissions
-- Get clean (applying Acoustic Echo Cancelling) microphone samples in PCM format (1 channel 16 bit at 16kHz)
-- Play audio samples in PCM format (1 channel 16 bit at 16kHz). Playback happens through main speaker unless external audio sources are connected.
+- Get clean (applying Acoustic Echo Cancelling) microphone samples in PCM format (1 channel 16 bit at 24kHz)
+- Play audio samples in PCM format (1 channel 16 bit at 24kHz). Playback happens through main speaker unless external audio sources are connected.
 - Provide volume level both for the input and output samples. Float between 0 and 1.
 - [iOS only] Get microphone mode and prompt user to select a microphone mode.
 
